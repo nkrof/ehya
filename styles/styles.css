@@ -1,0 +1,53 @@
+#flexnavbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  max-width: 1200px;
+  margin: auto;
+}
+#rowlist li {
+  background-color: white;
+  color: #183b56;
+  padding: 15px;
+  display: inline;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+#getitnow li {
+  display: inline;
+}
+
+#covermain {
+  background: url(../assets/images/cover-1@2x.png) no-repeat center;
+  background-size: cover;
+  height: 544px;
+  border-radius: 25px;
+  margin: 0px 30px 0 30px;
+}
+
+.upperblocktext {
+  color: #183b56;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.ehaylogo {
+  top: 0;
+}
+
+.getitnow {
+  color: rgb(0, 174, 255);
+  display: inline;
+  border: 2px solid;
+  border-radius: 10px;
+  text-decoration: none;
+  margin-left: 17px;
+  font-weight: bold;
+  padding: 11px;
+}
+
+.coverimage {
+  width: 60%;
+  border-radius: 2%;
+}
